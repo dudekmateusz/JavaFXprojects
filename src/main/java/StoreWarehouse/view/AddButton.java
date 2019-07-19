@@ -1,9 +1,10 @@
-package StoreWarehouse;
+package StoreWarehouse.view;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
+import StoreWarehouse.Product;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
