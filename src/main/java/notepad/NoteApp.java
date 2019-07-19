@@ -24,11 +24,11 @@ public class NoteApp extends Application {
 		GridPane root = new GridPane();
 		GridPane root1 = new GridPane();
 		
-		
+		//creating new text area
 		TextArea textArea = new TextArea(
 			
 			);
-
+		//	determination of the dimension
 		textArea.setPrefSize(1000, 600);
  
 		root.add(textArea, 0, 1);
@@ -38,16 +38,16 @@ public class NoteApp extends Application {
 
 		
 		primaryStage.show();
-		
+		//creating buttons
 		Button save = new Button("Zapis");
 		root.add(save, 0, 0);
 		Button save1 = new Button("Zapis");
 		root1.add(save1, 0, 0);
 		Button delete = new Button("Usuń");
 		root1.add(delete, 1, 0);
+		//Anonymous class defining what does clicking on the save button
 		save.setOnMouseClicked(new EventHandler<MouseEvent>(){
 
-			@Override		
 			public void handle(MouseEvent event) {
 				
 				
