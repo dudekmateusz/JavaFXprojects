@@ -11,11 +11,15 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
-import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * klasa przechowująca metody związane z warstwą wizualną aplikacji magazynowej i łącząca się z lokalną bazą danych
+ * @author Mateusz Dudek
+ *
+ */
 public class ProductView {
 	
 	private Stage stage;
